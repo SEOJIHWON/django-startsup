@@ -1,0 +1,47 @@
+
+.container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 1500px;
+    padding: 30px;
+    margin: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.square-red {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+  
+}
+.square-green {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+   
+.square-blue {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    bottom: 0px;
+
+}
+
+.relative
+{
+     position: relative; /* 포지션은 자신의 위치를 지정  상대적인 다른 엘렘먼트와의 관계가아니다. */
+
+}
+ 
+.absolute{
+    position: absolute;
+}
+
+/* 부모: 스태틱이 아닌 포지션
+자식: 앱솔루트이면 부모를 기준으로 기준을 잡는다. */
